@@ -2,5 +2,9 @@
   "item.warhammermod.brass_scrap": "Brass Scrap",
   "item.warhammermod.brass_ingot": "Brass Ingot",
 
+  "block.warhammermod.brass_block": "Brass Block",
+  "block.warhammermod.raw_brass_block": "Raw Brass Block",
+  "block.warhammermod.brass_deposit": "Brass Deposit",
+
   "itemgroup.warhammer": "Warhammer Mod"
 }

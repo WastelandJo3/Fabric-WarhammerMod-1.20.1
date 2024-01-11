@@ -2,6 +2,7 @@ package net.wastelandjoe.warhammermod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.wastelandjoe.warhammermod.block.ModBlocks;
 import net.wastelandjoe.warhammermod.item.ModItemGroups;
 import net.wastelandjoe.warhammermod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class WarhammerMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

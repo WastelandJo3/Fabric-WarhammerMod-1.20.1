@@ -8,14 +8,19 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.wastelandjoe.warhammermod.WarhammerMod;
+import net.wastelandjoe.warhammermod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup WARHAMMER_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(WarhammerMod.MOD_ID, "warhammer"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.warhammer"))
                     .icon(() -> new ItemStack(ModItems.BRASS_INGOT)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.BRASS_SCRAP);
                         entries.add(ModItems.BRASS_INGOT);
+                        entries.add(ModItems.BRASS_SCRAP);
+
+                        entries.add(ModBlocks.BRASS_BLOCK);
+                        entries.add(ModBlocks.RAW_BRASS_BLOCK);
+                        entries.add(ModBlocks.BRASS_DEPOSIT);
 
                     }).build());
 
