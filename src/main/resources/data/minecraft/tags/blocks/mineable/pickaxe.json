@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "warhammermod:brass_block",
+    "warhammermod:raw_brass_block",
+    "warhammermod:brass_deposit"
+  ]
+}
