@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "warhammermod:brass_block"
+    }
+  ],
+  "result": {
+    "item": "warhammermod:brass_ingot",
+    "count": 9
+  }
+}

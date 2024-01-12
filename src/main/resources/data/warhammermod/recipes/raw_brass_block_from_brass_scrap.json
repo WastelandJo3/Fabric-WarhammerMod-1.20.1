@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "warhammermod:brass_scrap"
+    }
+  },
+  "result": {
+    "item": "warhammermod:raw_brass_block"
+  }
+}

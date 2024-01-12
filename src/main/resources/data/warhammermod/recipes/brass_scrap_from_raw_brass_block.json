@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "warhammermod:raw_brass_block"
+    }
+  ],
+  "result": {
+    "item": "warhammermod:brass_scrap",
+    "count": 9
+  }
+}
